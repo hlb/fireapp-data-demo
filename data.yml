@@ -1,0 +1,21 @@
+friends:
+  - Tom
+  - Dick
+  - Harry
+historical:
+  - 項羽
+  - 劉邦
+  - 張良
+historical_with_data:
+  - name: 劉備
+    str: 64
+    int: 80
+    lv: 15
+  - name: 關羽
+    str: 97
+    int: 78 
+    lv: 18
+  - name: 張飛
+    str: 99
+    int: 45 
+    lv: 17

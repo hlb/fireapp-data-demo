@@ -1,0 +1,26 @@
+<p>This is a demo.</p>
+
+<ul>
+<% data["friends"].each do |p| %>
+    <li><%= p %></li>
+<% end %>
+</ul>
+<ul>
+<% data["historical"].each do |p| %>
+    <li><%= p %></li>
+<% end %>
+</ul>
+<ul>
+<% data["historical_with_data"].each do |p| %>
+    <li>
+        <dl>
+            <dt>姓名</dt>
+            <dd><%= p["name"] %></dd>
+            <dt>武力</dt>
+            <dd><%= p["str"] %></dd>
+            <dt>智力</dt>
+            <dd><%= p["int"] %></dd>
+        </dl>
+    </li>
+<% end %>
+</ul>
